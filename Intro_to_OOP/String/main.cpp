@@ -50,7 +50,7 @@ char* String::get_str()
 	return str;
 }
 //			Constructors:
-explicit String::String(unsigned int size = 80)
+String::String(unsigned int size)
 {
 	this->size = size;
 	this->str = new char[size] {};
